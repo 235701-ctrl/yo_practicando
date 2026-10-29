@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Obstetricia</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f4f6f9; }
+    .card { background: white; padding: 20px; border-radius: 10px; display: inline-block; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    button { padding: 10px 20px; font-size: 16px; margin: 10px; cursor: pointer; border: none; border-radius: 5px; background-color: #0070f3; color: white; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>¡Bienvenido al Juego de Obstetricia!</h1>
+    <p>Pregunta: ¿Cuántas semanas dura aproximadamente un embarazo a término?</p>
+    <button onclick="alert('¡Correcto! Un embarazo normal dura entre 37 y 42 semanas.')">A) 40 Semanas</button>
+    <button onclick="alert('Incorrecto, intenta de nuevo.')">B) 20 Semanas</button>
+  </div>
+</body>
+</html>
